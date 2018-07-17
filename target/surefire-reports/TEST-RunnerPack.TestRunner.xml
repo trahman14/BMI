@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="13" failures="0" name="RunnerPack.TestRunner" time="38.006" errors="0" skipped="0">
+<testsuite tests="13" failures="0" name="RunnerPack.TestRunner" time="35.42" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib"/>
@@ -64,17 +64,17 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="RunnerPack.TestRunner" name="runScenario" time="6.076"/>
-  <testcase classname="RunnerPack.TestRunner" name="runScenario" time="5.478"/>
-  <testcase classname="RunnerPack.TestRunner" name="runScenario" time="5.483"/>
-  <testcase classname="RunnerPack.TestRunner" name="runScenario" time="5.475"/>
-  <testcase classname="RunnerPack.TestRunner" name="runScenario" time="1.87"/>
-  <testcase classname="RunnerPack.TestRunner" name="runScenario" time="1.867"/>
-  <testcase classname="RunnerPack.TestRunner" name="runScenario" time="1.867"/>
-  <testcase classname="RunnerPack.TestRunner" name="runScenario" time="1.842"/>
-  <testcase classname="RunnerPack.TestRunner" name="runScenario" time="1.831"/>
-  <testcase classname="RunnerPack.TestRunner" name="runScenario" time="1.826"/>
-  <testcase classname="RunnerPack.TestRunner" name="runScenario" time="1.469"/>
-  <testcase classname="RunnerPack.TestRunner" name="runScenario" time="1.473"/>
-  <testcase classname="RunnerPack.TestRunner" name="runScenario" time="1.449"/>
+  <testcase classname="RunnerPack.TestRunner" name="runScenario" time="5.914"/>
+  <testcase classname="RunnerPack.TestRunner" name="runScenario" time="5.228"/>
+  <testcase classname="RunnerPack.TestRunner" name="runScenario" time="5.253"/>
+  <testcase classname="RunnerPack.TestRunner" name="runScenario" time="5.232"/>
+  <testcase classname="RunnerPack.TestRunner" name="runScenario" time="1.676"/>
+  <testcase classname="RunnerPack.TestRunner" name="runScenario" time="1.674"/>
+  <testcase classname="RunnerPack.TestRunner" name="runScenario" time="1.651"/>
+  <testcase classname="RunnerPack.TestRunner" name="runScenario" time="1.732"/>
+  <testcase classname="RunnerPack.TestRunner" name="runScenario" time="1.661"/>
+  <testcase classname="RunnerPack.TestRunner" name="runScenario" time="1.745"/>
+  <testcase classname="RunnerPack.TestRunner" name="runScenario" time="1.228"/>
+  <testcase classname="RunnerPack.TestRunner" name="runScenario" time="1.217"/>
+  <testcase classname="RunnerPack.TestRunner" name="runScenario" time="1.209"/>
 </testsuite>
