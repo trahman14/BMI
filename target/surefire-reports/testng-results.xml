@@ -8,7 +8,7 @@
       <![CDATA[<div "result">I enter height in Centimeters &quot;170&quot; and Weight in Kilograms &quot;50&quot; (PASSED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">I click on calculate button (PASSED : 4s)</div>]]>
+      <![CDATA[<div "result">I click on calculate button (PASSED : 6s)</div>]]>
     </line>
     <line>
       <![CDATA[<div "result">I should get BMI value &quot;17.3&quot; (PASSED : 0s)</div>]]>
@@ -23,7 +23,7 @@
       <![CDATA[<div "result">I enter height in Centimeters &quot;170&quot; and Weight in Kilograms &quot;80&quot; (PASSED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">I click on calculate button (PASSED : 4s)</div>]]>
+      <![CDATA[<div "result">I click on calculate button (PASSED : 6s)</div>]]>
     </line>
     <line>
       <![CDATA[<div "result">I should get BMI value &quot;27.7&quot; (PASSED : 0s)</div>]]>
@@ -38,7 +38,7 @@
       <![CDATA[<div "result">I enter height in Centimeters &quot;170&quot; and Weight in Kilograms &quot;60&quot; (PASSED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">I click on calculate button (PASSED : 4s)</div>]]>
+      <![CDATA[<div "result">I click on calculate button (PASSED : 6s)</div>]]>
     </line>
     <line>
       <![CDATA[<div "result">I should get BMI value &quot;20.8&quot; (PASSED : 0s)</div>]]>
@@ -53,7 +53,7 @@
       <![CDATA[<div "result">I enter height in Centimeters &quot;170&quot; and Weight in Kilograms &quot;90&quot; (PASSED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">I click on calculate button (PASSED : 4s)</div>]]>
+      <![CDATA[<div "result">I click on calculate button (PASSED : 6s)</div>]]>
     </line>
     <line>
       <![CDATA[<div "result">I should get BMI value &quot;31.1&quot; (PASSED : 0s)</div>]]>
@@ -197,19 +197,19 @@
       <![CDATA[<div "result">I am prompted a failed validation message (PASSED : 0s)</div>]]>
     </line>
   </reporter-output>
-  <suite name="RunnerPack.TestRunner" duration-ms="35669" started-at="2018-07-17T19:19:02Z" finished-at="2018-07-17T19:19:38Z">
+  <suite name="RunnerPack.TestRunner" duration-ms="46868" started-at="2018-07-17T19:39:02Z" finished-at="2018-07-17T19:39:49Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPack.TestRunner@7921b0a2]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Command line test" duration-ms="35669" started-at="2018-07-17T19:19:02Z" finished-at="2018-07-17T19:19:38Z">
+    <test name="Command line test" duration-ms="46868" started-at="2018-07-17T19:39:02Z" finished-at="2018-07-17T19:39:49Z">
       <class name="RunnerPack.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:RunnerPack.TestRunner@7921b0a2]" name="setUpClass" is-config="true" duration-ms="184" started-at="2018-07-17T19:19:02Z" finished-at="2018-07-17T19:19:02Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:RunnerPack.TestRunner@7921b0a2]" name="setUpClass" is-config="true" duration-ms="174" started-at="2018-07-17T19:39:02Z" finished-at="2018-07-17T19:39:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPack.TestRunner@7921b0a2]" name="runScenario" duration-ms="5913" started-at="2018-07-17T19:19:02Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-17T19:19:08Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPack.TestRunner@7921b0a2]" name="runScenario" duration-ms="8126" started-at="2018-07-17T19:39:03Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-17T19:39:11Z">
           <params>
             <param index="0">
               <value>
@@ -230,7 +230,7 @@
               <![CDATA[<div "result">I enter height in Centimeters &quot;170&quot; and Weight in Kilograms &quot;50&quot; (PASSED : 0s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">I click on calculate button (PASSED : 4s)</div>]]>
+              <![CDATA[<div "result">I click on calculate button (PASSED : 6s)</div>]]>
             </line>
             <line>
               <![CDATA[<div "result">I should get BMI value &quot;17.3&quot; (PASSED : 0s)</div>]]>
@@ -240,7 +240,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPack.TestRunner@7921b0a2]" name="runScenario" duration-ms="5230" started-at="2018-07-17T19:19:08Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-17T19:19:14Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPack.TestRunner@7921b0a2]" name="runScenario" duration-ms="7577" started-at="2018-07-17T19:39:11Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-17T19:39:18Z">
           <params>
             <param index="0">
               <value>
@@ -261,7 +261,7 @@
               <![CDATA[<div "result">I enter height in Centimeters &quot;170&quot; and Weight in Kilograms &quot;80&quot; (PASSED : 0s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">I click on calculate button (PASSED : 4s)</div>]]>
+              <![CDATA[<div "result">I click on calculate button (PASSED : 6s)</div>]]>
             </line>
             <line>
               <![CDATA[<div "result">I should get BMI value &quot;27.7&quot; (PASSED : 0s)</div>]]>
@@ -271,7 +271,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPack.TestRunner@7921b0a2]" name="runScenario" duration-ms="5252" started-at="2018-07-17T19:19:14Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-17T19:19:19Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPack.TestRunner@7921b0a2]" name="runScenario" duration-ms="7536" started-at="2018-07-17T19:39:18Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-17T19:39:26Z">
           <params>
             <param index="0">
               <value>
@@ -292,7 +292,7 @@
               <![CDATA[<div "result">I enter height in Centimeters &quot;170&quot; and Weight in Kilograms &quot;60&quot; (PASSED : 0s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">I click on calculate button (PASSED : 4s)</div>]]>
+              <![CDATA[<div "result">I click on calculate button (PASSED : 6s)</div>]]>
             </line>
             <line>
               <![CDATA[<div "result">I should get BMI value &quot;20.8&quot; (PASSED : 0s)</div>]]>
@@ -302,7 +302,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPack.TestRunner@7921b0a2]" name="runScenario" duration-ms="5231" started-at="2018-07-17T19:19:19Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-17T19:19:24Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPack.TestRunner@7921b0a2]" name="runScenario" duration-ms="7515" started-at="2018-07-17T19:39:26Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-17T19:39:33Z">
           <params>
             <param index="0">
               <value>
@@ -323,7 +323,7 @@
               <![CDATA[<div "result">I enter height in Centimeters &quot;170&quot; and Weight in Kilograms &quot;90&quot; (PASSED : 0s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">I click on calculate button (PASSED : 4s)</div>]]>
+              <![CDATA[<div "result">I click on calculate button (PASSED : 6s)</div>]]>
             </line>
             <line>
               <![CDATA[<div "result">I should get BMI value &quot;31.1&quot; (PASSED : 0s)</div>]]>
@@ -333,7 +333,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPack.TestRunner@7921b0a2]" name="runScenario" duration-ms="1676" started-at="2018-07-17T19:19:24Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-17T19:19:26Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPack.TestRunner@7921b0a2]" name="runScenario" duration-ms="1889" started-at="2018-07-17T19:39:33Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-17T19:39:35Z">
           <params>
             <param index="0">
               <value>
@@ -364,7 +364,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPack.TestRunner@7921b0a2]" name="runScenario" duration-ms="1673" started-at="2018-07-17T19:19:26Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-17T19:19:27Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPack.TestRunner@7921b0a2]" name="runScenario" duration-ms="1923" started-at="2018-07-17T19:39:35Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-17T19:39:37Z">
           <params>
             <param index="0">
               <value>
@@ -395,7 +395,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPack.TestRunner@7921b0a2]" name="runScenario" duration-ms="1650" started-at="2018-07-17T19:19:27Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-17T19:19:29Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPack.TestRunner@7921b0a2]" name="runScenario" duration-ms="1897" started-at="2018-07-17T19:39:37Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-17T19:39:39Z">
           <params>
             <param index="0">
               <value>
@@ -426,7 +426,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPack.TestRunner@7921b0a2]" name="runScenario" duration-ms="1731" started-at="2018-07-17T19:19:29Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-17T19:19:31Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPack.TestRunner@7921b0a2]" name="runScenario" duration-ms="1859" started-at="2018-07-17T19:39:39Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-17T19:39:41Z">
           <params>
             <param index="0">
               <value>
@@ -457,7 +457,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPack.TestRunner@7921b0a2]" name="runScenario" duration-ms="1660" started-at="2018-07-17T19:19:31Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-17T19:19:32Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPack.TestRunner@7921b0a2]" name="runScenario" duration-ms="1883" started-at="2018-07-17T19:39:41Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-17T19:39:43Z">
           <params>
             <param index="0">
               <value>
@@ -488,7 +488,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPack.TestRunner@7921b0a2]" name="runScenario" duration-ms="1745" started-at="2018-07-17T19:19:32Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-17T19:19:34Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPack.TestRunner@7921b0a2]" name="runScenario" duration-ms="1884" started-at="2018-07-17T19:39:43Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-17T19:39:45Z">
           <params>
             <param index="0">
               <value>
@@ -519,7 +519,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPack.TestRunner@7921b0a2]" name="runScenario" duration-ms="1228" started-at="2018-07-17T19:19:34Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-17T19:19:35Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPack.TestRunner@7921b0a2]" name="runScenario" duration-ms="1518" started-at="2018-07-17T19:39:45Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-17T19:39:46Z">
           <params>
             <param index="0">
               <value>
@@ -550,7 +550,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPack.TestRunner@7921b0a2]" name="runScenario" duration-ms="1218" started-at="2018-07-17T19:19:35Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-17T19:19:37Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPack.TestRunner@7921b0a2]" name="runScenario" duration-ms="1526" started-at="2018-07-17T19:39:46Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-17T19:39:48Z">
           <params>
             <param index="0">
               <value>
@@ -581,7 +581,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPack.TestRunner@7921b0a2]" name="runScenario" duration-ms="1210" started-at="2018-07-17T19:19:37Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-17T19:19:38Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPack.TestRunner@7921b0a2]" name="runScenario" duration-ms="1493" started-at="2018-07-17T19:39:48Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-17T19:39:49Z">
           <params>
             <param index="0">
               <value>
@@ -612,7 +612,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:RunnerPack.TestRunner@7921b0a2]" name="tearDownClass" is-config="true" duration-ms="5" started-at="2018-07-17T19:19:38Z" finished-at="2018-07-17T19:19:38Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:RunnerPack.TestRunner@7921b0a2]" name="tearDownClass" is-config="true" duration-ms="6" started-at="2018-07-17T19:39:49Z" finished-at="2018-07-17T19:39:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
