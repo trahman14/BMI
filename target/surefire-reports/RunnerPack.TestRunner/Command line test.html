@@ -1,0 +1,287 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jul 17 15:04:02 EDT 2018</td>
+</tr>
+<tr><td>Total time:</td><td>38 seconds (38204 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='RunnerPack.TestRunner.runScenario()'><b>runScenario</b><br>Test class: RunnerPack.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Category Under weight", "BMI Calculator Functionality"<br/>
+<a href="#Output-1635082651" onClick='toggleBox("Output-1635082651", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1635082651" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1635082651">
+<div "result">I am on BMI Calculator Webpage (PASSED : 0s)</div><br/>
+<div "result">I enter height in Centimeters &quot;170&quot; and Weight in Kilograms &quot;50&quot; (PASSED : 0s)</div><br/>
+<div "result">I click on calculate button (PASSED : 4s)</div><br/>
+<div "result">I should get BMI value &quot;17.3&quot; (PASSED : 0s)</div><br/>
+<div "result">I should get BMI Category &quot;Underweight&quot; (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>RunnerPack.TestRunner@7921b0a2</td></tr>
+<tr>
+<td title='RunnerPack.TestRunner.runScenario()'><b>runScenario</b><br>Test class: RunnerPack.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Category Over weight", "BMI Calculator Functionality"<br/>
+<a href="#Output-1971283804" onClick='toggleBox("Output-1971283804", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1971283804" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1971283804">
+<div "result">I am on BMI Calculator Webpage (PASSED : 0s)</div><br/>
+<div "result">I enter height in Centimeters &quot;170&quot; and Weight in Kilograms &quot;80&quot; (PASSED : 0s)</div><br/>
+<div "result">I click on calculate button (PASSED : 4s)</div><br/>
+<div "result">I should get BMI value &quot;27.7&quot; (PASSED : 0s)</div><br/>
+<div "result">I should get BMI Category &quot;Overweight&quot; (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>RunnerPack.TestRunner@7921b0a2</td></tr>
+<tr>
+<td title='RunnerPack.TestRunner.runScenario()'><b>runScenario</b><br>Test class: RunnerPack.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Category Normal", "BMI Calculator Functionality"<br/>
+<a href="#Output-903064416" onClick='toggleBox("Output-903064416", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-903064416" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-903064416">
+<div "result">I am on BMI Calculator Webpage (PASSED : 0s)</div><br/>
+<div "result">I enter height in Centimeters &quot;170&quot; and Weight in Kilograms &quot;60&quot; (PASSED : 0s)</div><br/>
+<div "result">I click on calculate button (PASSED : 4s)</div><br/>
+<div "result">I should get BMI value &quot;20.8&quot; (PASSED : 0s)</div><br/>
+<div "result">I should get BMI Category &quot;Normal&quot; (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>RunnerPack.TestRunner@7921b0a2</td></tr>
+<tr>
+<td title='RunnerPack.TestRunner.runScenario()'><b>runScenario</b><br>Test class: RunnerPack.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Category Obesity", "BMI Calculator Functionality"<br/>
+<a href="#Output-288169102" onClick='toggleBox("Output-288169102", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-288169102" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-288169102">
+<div "result">I am on BMI Calculator Webpage (PASSED : 0s)</div><br/>
+<div "result">I enter height in Centimeters &quot;170&quot; and Weight in Kilograms &quot;90&quot; (PASSED : 0s)</div><br/>
+<div "result">I click on calculate button (PASSED : 4s)</div><br/>
+<div "result">I should get BMI value &quot;31.1&quot; (PASSED : 0s)</div><br/>
+<div "result">I should get BMI Category &quot;Obesity&quot; (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>RunnerPack.TestRunner@7921b0a2</td></tr>
+<tr>
+<td title='RunnerPack.TestRunner.runScenario()'><b>runScenario</b><br>Test class: RunnerPack.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User will able to Registration by using valid data", "Registration form fillup"<br/>
+<a href="#Output-1706655559" onClick='toggleBox("Output-1706655559", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1706655559" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1706655559">
+<div "result">user is on registration form web page (PASSED : 0s)</div><br/>
+<div "result">user will Enter &quot;Farhana&quot;, &quot;Zaman&quot;,&quot;farhana@yahoo.com&quot;, &quot;farhana@yahoo.com&quot;,&quot;far7645&quot; (PASSED : 0s)</div><br/>
+<div "result">user will click on &quot;Female&quot; (PASSED : 0s)</div><br/>
+<div "result">user will select &quot;Jun&quot;,&quot;25&quot;, &quot;1987&quot; (PASSED : 0s)</div><br/>
+<div "result">user will able to register successfully (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>RunnerPack.TestRunner@7921b0a2</td></tr>
+<tr>
+<td title='RunnerPack.TestRunner.runScenario()'><b>runScenario</b><br>Test class: RunnerPack.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User will able to Registration by using valid data", "Registration form fillup"<br/>
+<a href="#Output-251074782" onClick='toggleBox("Output-251074782", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-251074782" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-251074782">
+<div "result">user is on registration form web page (PASSED : 0s)</div><br/>
+<div "result">user will Enter &quot;Mohammed&quot;, &quot;Islam&quot;,&quot;islam@gmail.com&quot;, &quot;islam@gmail.com&quot;,&quot;islam423&quot; (PASSED : 0s)</div><br/>
+<div "result">user will click on &quot;Male&quot; (PASSED : 0s)</div><br/>
+<div "result">user will select &quot;May&quot;,&quot;26&quot;, &quot;1975&quot; (PASSED : 0s)</div><br/>
+<div "result">user will able to register successfully (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>RunnerPack.TestRunner@7921b0a2</td></tr>
+<tr>
+<td title='RunnerPack.TestRunner.runScenario()'><b>runScenario</b><br>Test class: RunnerPack.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User will able to Registration by using valid data", "Registration form fillup"<br/>
+<a href="#Output-1174599796" onClick='toggleBox("Output-1174599796", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1174599796" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1174599796">
+<div "result">user is on registration form web page (PASSED : 0s)</div><br/>
+<div "result">user will Enter &quot;Padma&quot;, &quot;Khan&quot;,&quot;padma@yahoo.com&quot;, &quot;padma@yahoo.com&quot;,&quot;padm1432&quot; (PASSED : 0s)</div><br/>
+<div "result">user will click on &quot;Female&quot; (PASSED : 0s)</div><br/>
+<div "result">user will select &quot;Feb&quot;,&quot;27&quot;, &quot;1985&quot; (PASSED : 0s)</div><br/>
+<div "result">user will able to register successfully (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>RunnerPack.TestRunner@7921b0a2</td></tr>
+<tr>
+<td title='RunnerPack.TestRunner.runScenario()'><b>runScenario</b><br>Test class: RunnerPack.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User will able to Registration by using valid data", "Registration form fillup"<br/>
+<a href="#Output-1152113439" onClick='toggleBox("Output-1152113439", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1152113439" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1152113439">
+<div "result">user is on registration form web page (PASSED : 0s)</div><br/>
+<div "result">user will Enter &quot;Farhana&quot;, &quot;Zaman&quot;,&quot;farhana@yahoo.com&quot;, &quot;farhana@yahoo.com&quot;,&quot;far7645&quot; (PASSED : 0s)</div><br/>
+<div "result">user will click on &quot;Female&quot; (PASSED : 0s)</div><br/>
+<div "result">user will select &quot;Jun&quot;,&quot;28&quot;, &quot;1987&quot; (PASSED : 0s)</div><br/>
+<div "result">user will able to register successfully (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>RunnerPack.TestRunner@7921b0a2</td></tr>
+<tr>
+<td title='RunnerPack.TestRunner.runScenario()'><b>runScenario</b><br>Test class: RunnerPack.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User will able to Registration by using valid data", "Registration form fillup"<br/>
+<a href="#Output-1792864345" onClick='toggleBox("Output-1792864345", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1792864345" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1792864345">
+<div "result">user is on registration form web page (PASSED : 0s)</div><br/>
+<div "result">user will Enter &quot;Mohammed&quot;, &quot;Zahir&quot;,&quot;islam@gmail.com&quot;, &quot;islam@gmail.com&quot;,&quot;islam423&quot; (PASSED : 0s)</div><br/>
+<div "result">user will click on &quot;Male&quot; (PASSED : 0s)</div><br/>
+<div "result">user will select &quot;May&quot;,&quot;29&quot;, &quot;1975&quot; (PASSED : 0s)</div><br/>
+<div "result">user will able to register successfully (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>RunnerPack.TestRunner@7921b0a2</td></tr>
+<tr>
+<td title='RunnerPack.TestRunner.runScenario()'><b>runScenario</b><br>Test class: RunnerPack.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User will able to Registration by using valid data", "Registration form fillup"<br/>
+<a href="#Output-1200666775" onClick='toggleBox("Output-1200666775", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1200666775" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1200666775">
+<div "result">user is on registration form web page (PASSED : 0s)</div><br/>
+<div "result">user will Enter &quot;Oyshi&quot;, &quot;Khan&quot;,&quot;padma@yahoo.com&quot;, &quot;padma@yahoo.com&quot;,&quot;padm1432&quot; (PASSED : 0s)</div><br/>
+<div "result">user will click on &quot;Female&quot; (PASSED : 0s)</div><br/>
+<div "result">user will select &quot;Feb&quot;,&quot;30&quot;, &quot;1985&quot; (PASSED : 0s)</div><br/>
+<div "result">user will able to register successfully (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>RunnerPack.TestRunner@7921b0a2</td></tr>
+<tr>
+<td title='RunnerPack.TestRunner.runScenario()'><b>runScenario</b><br>Test class: RunnerPack.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "1 User should be able to transfer funds successfully", "Fund Transfer"<br/>
+<a href="#Output-1783594007" onClick='toggleBox("Output-1783594007", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1783594007" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1783594007">
+<div "result">I am on Online funds transfer page (PASSED : 0s)</div><br/>
+<div "result">I select my Name &quot;Jim&quot; (PASSED : 0s)</div><br/>
+<div "result">amount &quot;500&quot; (PASSED : 0s)</div><br/>
+<div "result">I click on the transfer button (PASSED : 0s)</div><br/>
+<div "result">I am prompted a success validation message (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>RunnerPack.TestRunner@7921b0a2</td></tr>
+<tr>
+<td title='RunnerPack.TestRunner.runScenario()'><b>runScenario</b><br>Test class: RunnerPack.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "2 User does not have enough funds and is declined fund transfer", "Fund Transfer"<br/>
+<a href="#Output-558412926" onClick='toggleBox("Output-558412926", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-558412926" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-558412926">
+<div "result">I am on Online funds transfer page (PASSED : 0s)</div><br/>
+<div "result">I select my name &quot;Tim&quot; (PASSED : 0s)</div><br/>
+<div "result">amount &quot;7000&quot; (PASSED : 0s)</div><br/>
+<div "result">I click on the Transfer button (PASSED : 0s)</div><br/>
+<div "result">I am prompted a failed validation message (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>RunnerPack.TestRunner@7921b0a2</td></tr>
+<tr>
+<td title='RunnerPack.TestRunner.runScenario()'><b>runScenario</b><br>Test class: RunnerPack.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "3 User is not approved for funds transfer", "Fund Transfer"<br/>
+<a href="#Output-1908883473" onClick='toggleBox("Output-1908883473", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1908883473" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1908883473">
+<div "result">I am on Online funds transfer page (PASSED : 0s)</div><br/>
+<div "result">I select my name &quot;John&quot; from the dropdown (PASSED : 0s)</div><br/>
+<div "result">amount &quot;200&quot; (PASSED : 0s)</div><br/>
+<div "result">I click on the Transfer button (PASSED : 0s)</div><br/>
+<div "result">I am prompted a failed validation message (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>RunnerPack.TestRunner@7921b0a2</td></tr>
+</table><p>
+</body>
+</html>

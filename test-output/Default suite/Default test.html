@@ -1,0 +1,191 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jul 16 20:06:10 EDT 2018</td>
+</tr>
+<tr><td>Total time:</td><td>25 seconds (25936 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='RunnerPack.TestRunner.runScenario()'><b>runScenario</b><br>Test class: RunnerPack.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Category Under weight", "BMI Calculator Functionality"<br/>
+<a href="#Output-417797183" onClick='toggleBox("Output-417797183", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-417797183" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-417797183">
+<div "result">I am on BMI Calculator Webpage (PASSED : 0s)</div><br/>
+<div "result">I enter height in Centimeters &quot;170&quot; and Weight in Kilograms &quot;50&quot; (PASSED : 0s)</div><br/>
+<div "result">I click on calculate button (PASSED : 4s)</div><br/>
+<div "result">I should get BMI value &quot;17.3&quot; (PASSED : 0s)</div><br/>
+<div "result">I should get BMI Category &quot;Underweight&quot; (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>RunnerPack.TestRunner@20322d26</td></tr>
+<tr>
+<td title='RunnerPack.TestRunner.runScenario()'><b>runScenario</b><br>Test class: RunnerPack.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Category Over weight", "BMI Calculator Functionality"<br/>
+<a href="#Output-619241052" onClick='toggleBox("Output-619241052", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-619241052" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-619241052">
+<div "result">I am on BMI Calculator Webpage (PASSED : 0s)</div><br/>
+<div "result">I enter height in Centimeters &quot;170&quot; and Weight in Kilograms &quot;80&quot; (PASSED : 0s)</div><br/>
+<div "result">I click on calculate button (PASSED : 4s)</div><br/>
+<div "result">I should get BMI value &quot;27.7&quot; (PASSED : 0s)</div><br/>
+<div "result">I should get BMI Category &quot;Overweight&quot; (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>RunnerPack.TestRunner@20322d26</td></tr>
+<tr>
+<td title='RunnerPack.TestRunner.runScenario()'><b>runScenario</b><br>Test class: RunnerPack.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Category Normal", "BMI Calculator Functionality"<br/>
+<a href="#Output-439720255" onClick='toggleBox("Output-439720255", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-439720255" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-439720255">
+<div "result">I am on BMI Calculator Webpage (PASSED : 0s)</div><br/>
+<div "result">I enter height in Centimeters &quot;170&quot; and Weight in Kilograms &quot;60&quot; (PASSED : 0s)</div><br/>
+<div "result">I click on calculate button (PASSED : 4s)</div><br/>
+<div "result">I should get BMI value &quot;20.8&quot; (PASSED : 0s)</div><br/>
+<div "result">I should get BMI Category &quot;Normal&quot; (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>RunnerPack.TestRunner@20322d26</td></tr>
+<tr>
+<td title='RunnerPack.TestRunner.runScenario()'><b>runScenario</b><br>Test class: RunnerPack.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Category Obesity", "BMI Calculator Functionality"<br/>
+<a href="#Output-1479800269" onClick='toggleBox("Output-1479800269", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1479800269" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1479800269">
+<div "result">I am on BMI Calculator Webpage (PASSED : 0s)</div><br/>
+<div "result">I enter height in Centimeters &quot;170&quot; and Weight in Kilograms &quot;90&quot; (PASSED : 0s)</div><br/>
+<div "result">I click on calculate button (PASSED : 4s)</div><br/>
+<div "result">I should get BMI value &quot;31.1&quot; (PASSED : 0s)</div><br/>
+<div "result">I should get BMI Category &quot;Obesity&quot; (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>RunnerPack.TestRunner@20322d26</td></tr>
+<tr>
+<td title='RunnerPack.TestRunner.runScenario()'><b>runScenario</b><br>Test class: RunnerPack.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "1 User should be able to transfer funds successfully", "Fund Transfer"<br/>
+<a href="#Output-319144230" onClick='toggleBox("Output-319144230", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-319144230" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-319144230">
+<div "result">I am on Online funds transfer page (PASSED : 0s)</div><br/>
+<div "result">I select my Name &quot;Jim&quot; (PASSED : 0s)</div><br/>
+<div "result">amount &quot;500&quot; (PASSED : 0s)</div><br/>
+<div "result">I click on the transfer button (PASSED : 0s)</div><br/>
+<div "result">I am prompted a success validation message (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>RunnerPack.TestRunner@20322d26</td></tr>
+<tr>
+<td title='RunnerPack.TestRunner.runScenario()'><b>runScenario</b><br>Test class: RunnerPack.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "2 User does not have enough funds and is declined fund transfer", "Fund Transfer"<br/>
+<a href="#Output-1733500474" onClick='toggleBox("Output-1733500474", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1733500474" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1733500474">
+<div "result">I am on Online funds transfer page (PASSED : 0s)</div><br/>
+<div "result">I select my name &quot;Tim&quot; (PASSED : 0s)</div><br/>
+<div "result">amount &quot;7000&quot; (PASSED : 0s)</div><br/>
+<div "result">I click on the Transfer button (PASSED : 0s)</div><br/>
+<div "result">I am prompted a failed validation message (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>RunnerPack.TestRunner@20322d26</td></tr>
+<tr>
+<td title='RunnerPack.TestRunner.runScenario()'><b>runScenario</b><br>Test class: RunnerPack.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "3 User is not approved for funds transfer", "Fund Transfer"<br/>
+<a href="#Output-212397882" onClick='toggleBox("Output-212397882", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-212397882" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-212397882">
+<div "result">I am on Online funds transfer page (PASSED : 0s)</div><br/>
+<div "result">I select my name &quot;John&quot; from the dropdown (PASSED : 0s)</div><br/>
+<div "result">amount &quot;200&quot; (PASSED : 0s)</div><br/>
+<div "result">I click on the Transfer button (PASSED : 0s)</div><br/>
+<div "result">I am prompted a failed validation message (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>RunnerPack.TestRunner@20322d26</td></tr>
+</table><p>
+</body>
+</html>

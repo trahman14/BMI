@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">I am on BMI Calculator Webpage (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I enter height in Centimeters &quot;170&quot; and Weight in Kilograms &quot;50&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on calculate button (PASSED : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I should get BMI value &quot;17.3&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I should get BMI Category &quot;Underweight&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I am on BMI Calculator Webpage (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I enter height in Centimeters &quot;170&quot; and Weight in Kilograms &quot;80&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on calculate button (PASSED : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I should get BMI value &quot;27.7&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I should get BMI Category &quot;Overweight&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I am on BMI Calculator Webpage (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I enter height in Centimeters &quot;170&quot; and Weight in Kilograms &quot;60&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on calculate button (PASSED : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I should get BMI value &quot;20.8&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I should get BMI Category &quot;Normal&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I am on BMI Calculator Webpage (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I enter height in Centimeters &quot;170&quot; and Weight in Kilograms &quot;90&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on calculate button (PASSED : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I should get BMI value &quot;31.1&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I should get BMI Category &quot;Obesity&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I am on Online funds transfer page (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I select my Name &quot;Jim&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">amount &quot;500&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on the transfer button (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I am prompted a success validation message (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I am on Online funds transfer page (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I select my name &quot;Tim&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">amount &quot;7000&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on the Transfer button (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I am prompted a failed validation message (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I am on Online funds transfer page (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I select my name &quot;John&quot; from the dropdown (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">amount &quot;200&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on the Transfer button (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I am prompted a failed validation message (PASSED : 0s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25936" started-at="2018-07-17T00:06:10Z" finished-at="2018-07-17T00:06:36Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPack.TestRunner@20322d26]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="25936" started-at="2018-07-17T00:06:10Z" finished-at="2018-07-17T00:06:36Z">
+      <class name="RunnerPack.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:RunnerPack.TestRunner@20322d26]" name="setUpClass" is-config="true" duration-ms="144" started-at="2018-07-17T00:06:10Z" finished-at="2018-07-17T00:06:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPack.TestRunner@20322d26]" name="runScenario" duration-ms="6032" started-at="2018-07-17T00:06:10Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-17T00:06:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Category Under weight"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["BMI Calculator Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I am on BMI Calculator Webpage (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I enter height in Centimeters &quot;170&quot; and Weight in Kilograms &quot;50&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on calculate button (PASSED : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I should get BMI value &quot;17.3&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I should get BMI Category &quot;Underweight&quot; (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPack.TestRunner@20322d26]" name="runScenario" duration-ms="5185" started-at="2018-07-17T00:06:16Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-17T00:06:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Category Over weight"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["BMI Calculator Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I am on BMI Calculator Webpage (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I enter height in Centimeters &quot;170&quot; and Weight in Kilograms &quot;80&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on calculate button (PASSED : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I should get BMI value &quot;27.7&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I should get BMI Category &quot;Overweight&quot; (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPack.TestRunner@20322d26]" name="runScenario" duration-ms="5503" started-at="2018-07-17T00:06:21Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-17T00:06:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Category Normal"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["BMI Calculator Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I am on BMI Calculator Webpage (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I enter height in Centimeters &quot;170&quot; and Weight in Kilograms &quot;60&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on calculate button (PASSED : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I should get BMI value &quot;20.8&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I should get BMI Category &quot;Normal&quot; (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPack.TestRunner@20322d26]" name="runScenario" duration-ms="5152" started-at="2018-07-17T00:06:27Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-17T00:06:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Category Obesity"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["BMI Calculator Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I am on BMI Calculator Webpage (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I enter height in Centimeters &quot;170&quot; and Weight in Kilograms &quot;90&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on calculate button (PASSED : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I should get BMI value &quot;31.1&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I should get BMI Category &quot;Obesity&quot; (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPack.TestRunner@20322d26]" name="runScenario" duration-ms="1503" started-at="2018-07-17T00:06:32Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-17T00:06:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["1 User should be able to transfer funds successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Fund Transfer"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I am on Online funds transfer page (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I select my Name &quot;Jim&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">amount &quot;500&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on the transfer button (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I am prompted a success validation message (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPack.TestRunner@20322d26]" name="runScenario" duration-ms="1198" started-at="2018-07-17T00:06:33Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-17T00:06:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["2 User does not have enough funds and is declined fund transfer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Fund Transfer"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I am on Online funds transfer page (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I select my name &quot;Tim&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">amount &quot;7000&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on the Transfer button (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I am prompted a failed validation message (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunnerPack.TestRunner@20322d26]" name="runScenario" duration-ms="1160" started-at="2018-07-17T00:06:34Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-17T00:06:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["3 User is not approved for funds transfer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Fund Transfer"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I am on Online funds transfer page (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I select my name &quot;John&quot; from the dropdown (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">amount &quot;200&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on the Transfer button (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I am prompted a failed validation message (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:RunnerPack.TestRunner@20322d26]" name="tearDownClass" is-config="true" duration-ms="4" started-at="2018-07-17T00:06:36Z" finished-at="2018-07-17T00:06:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- RunnerPack.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
