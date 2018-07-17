@@ -26,7 +26,7 @@ public class BMICalculator extends AbstractClass{
 	public void i_click_on_calculate_button() throws InterruptedException {
 		
 		driver.findElement(By.id("Calculate")).click();
-		Thread.sleep(3000);
+		Thread.sleep(8000);
 	    
 	}
 
