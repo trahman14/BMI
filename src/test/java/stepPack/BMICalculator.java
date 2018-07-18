@@ -35,7 +35,7 @@ public class BMICalculator extends AbstractClass{
 		
 		String actualValue = driver.findElement(By.id("bmi")).getAttribute("value"); 
 		Assert.assertEquals(actualValue, BMIValue);
-	   
+	   System.out.println("change");
 	}
 
 	@Then("^I should get BMI Category \"([^\"]*)\"$")
